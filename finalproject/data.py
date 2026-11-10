@@ -1,0 +1,12 @@
+tasks = [
+    {
+        "name": "task1", 
+        "id": 1
+    },
+    {
+        "name": "task2",
+        "id": 2
+    }
+]
+
+x = []

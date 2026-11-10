@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry"
+version = "0.1.0"
+description = ""
+authors = ["flamingo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+pydentic = "^0.0.1.dev3"
+pydantic = "^2.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
